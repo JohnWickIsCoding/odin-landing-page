@@ -179,7 +179,7 @@ a:hover{
     border: none;
     border-radius: 5px;
     min-width: 110px;
-    font-size: 15px;
+    font-size: 20px;
 }
 .buy-card-btn:hover{
     opacity: 0.9;
@@ -189,12 +189,12 @@ a:hover{
 }
 .buy-card-title{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     margin-bottom: 5px;
 }
 .buy-card-subtitle{
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(124, 127, 130);
 }
 .buy-card-content{
