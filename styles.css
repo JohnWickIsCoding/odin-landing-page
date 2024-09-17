@@ -10,8 +10,12 @@ html{
 /* Header Nav */
 .header{
     background-color: rgb(18, 18, 18);
-    padding: 40px 15vw;
-    overflow: hidden;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper{
+    width: min(1000px, 100%);
 }
 a{
     text-decoration: none;
@@ -36,11 +40,16 @@ a:hover{
     display: flex;
     gap: 15px;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 /* Header Content */
 .header-content{
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
 }
 .header-content-wrapper{
     display: flex;
@@ -48,7 +57,8 @@ a:hover{
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
-    flex: 1 1 0;
+    max-width: 600px;
+    flex: 1 1 300px;
 }
 .header-title{
     color: white;
@@ -67,7 +77,6 @@ a:hover{
     border-radius: 7px;
     cursor: pointer;
     padding: 10px 20px;
-    flex: 0 0 auto;
     transition: background-color 0.15s;
     font-weight: 500;
 }
@@ -82,10 +91,9 @@ a:hover{
     width: auto;
 }
 .header-img-wrapper{
-    flex: 1 1 0;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    align-items: center;
 }
 
 /* Info section */
