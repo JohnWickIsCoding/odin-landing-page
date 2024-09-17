@@ -43,12 +43,12 @@ a{
     line-height: 45px;
 }
 .header-subtitle{
-    color: white;
+    color: rgb(180, 184, 189);
     font-size: 17px;
 }
 .header-btn{
     font-size: 17px;
-    color: rgb(189, 189, 189);
+    color: #D8A25E;
     background-color: rgb(18, 18, 18);
     border: 2px solid rgb(28, 28, 28);
     border-radius: 7px;
