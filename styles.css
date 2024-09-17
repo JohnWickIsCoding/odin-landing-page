@@ -66,9 +66,10 @@ a:hover{
     border: 2px solid rgb(28, 28, 28);
     border-radius: 7px;
     cursor: pointer;
-    padding: 7px 17px;
+    padding: 10px 20px;
     flex: 0 0 auto;
     transition: background-color 0.15s;
+    font-weight: 500;
 }
 .header-btn:hover{
     background-color: rgb(28, 28, 28);
@@ -128,7 +129,7 @@ a:hover{
     background-color: rgb(245, 245, 245);
     display: flex;
     justify-content: center;
-    padding: 80px 0;
+    padding: 120px 0;
 }
 .quote-wrapper{
     width: 60%;
@@ -142,4 +143,51 @@ a:hover{
     text-align: right;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* Buy section */
+.buy-section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 100px 30px;
+}
+.buy-card{
+    background-color: rgb(20, 20, 20);  
+    border-radius: 10px;
+    padding: 50px 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    transition: box-shadow 0.15s;
+    flex-wrap: wrap;
+}
+.buy-card-btn{
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    min-width: 110px;
+    font-size: 15px;
+}
+.buy-card-btn:hover{
+    opacity: 0.9;
+}
+.buy-card-btn:active{
+    opacity: 0.7;
+}
+.buy-card-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+.buy-card-subtitle{
+    font-size: 15px;
+    color: rgb(124, 127, 130);
+}
+.buy-card-content{
+    flex: 0 1 600px;
 }
