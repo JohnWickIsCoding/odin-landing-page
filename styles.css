@@ -199,3 +199,10 @@ a:hover{
 .buy-card-content{
     flex: 0 1 600px;
 }
+
+/* Copyright section */
+.copyright{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
