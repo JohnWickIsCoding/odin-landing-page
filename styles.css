@@ -10,13 +10,13 @@ html{
 /* Header Nav */
 .header{
     background-color: rgb(18, 18, 18);
-    padding: 40px 17vw;
+    padding: 40px 15vw;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
     color: rgb(124, 127, 130);
     font-size: small;
-    margin: 0 5px;
     transition: color 0.15s;
 }
 a:hover{
@@ -30,6 +30,10 @@ a:hover{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+.header-links{
+    display: flex;
+    gap: 10px;
 }
 
 /* Header Content */
