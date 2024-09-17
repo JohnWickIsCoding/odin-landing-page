@@ -16,8 +16,9 @@ html{
 a{
     text-decoration: none;
     color: rgb(124, 127, 130);
-    font-size: small;
+    font-size: 16px;
     transition: color 0.15s;
+    text-align: center;
 }
 a:hover{
     color: white;
@@ -25,6 +26,8 @@ a:hover{
 .header-logo{
     color: white;
     font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
 }
 .header-nav-bar{
     display: flex;
@@ -33,7 +36,7 @@ a:hover{
 }
 .header-links{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 /* Header Content */
@@ -55,10 +58,10 @@ a:hover{
 }
 .header-subtitle{
     color: rgb(180, 184, 189);
-    font-size: 17px;
+    font-size: 20px;
 }
 .header-btn{
-    font-size: 17px;
+    font-size: 20px;
     color: #D8A25E;
     background-color: rgb(18, 18, 18);
     border: 2px solid rgb(28, 28, 28);
@@ -75,7 +78,7 @@ a:hover{
     opacity: 0.7;
 }
 .header-img{
-    height: 300px;
+    height: 350px;
     width: auto;
 }
 .header-img-wrapper{
@@ -92,7 +95,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding: 40px 10vw 80px 10vw;
+    padding: 40px 10vw 130px 10vw;
 }
 .info-title{
     text-align: center;
@@ -102,6 +105,7 @@ a:hover{
     text-align: center;
     color: black;
     padding: 5px;
+    font-size: 16px;
 }
 .card-img{
     border: 1px solid black;
@@ -118,4 +122,25 @@ a:hover{
 }
 .card{
     width: 200px;
+}
+
+/* Quote section */
+.quote{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+.quote-wrapper{
+    width: 60%;
+}
+.quote-text{
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.quote-author{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
 }
